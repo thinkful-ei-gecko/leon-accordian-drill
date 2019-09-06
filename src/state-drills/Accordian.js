@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 class Accordian extends React.Component {
-
+  static defaultProps = { sections: [] };
   state = {
     currentClicked : null
   }
